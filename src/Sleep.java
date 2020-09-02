@@ -16,7 +16,6 @@ public class Sleep {
             s.stayUp(s);
         } catch (Late late) {
             System.out.println("异常的具体原因:"+late.getMessage());
-
             late.printStackTrace();
         }
 
